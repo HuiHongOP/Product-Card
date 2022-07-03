@@ -1,1 +1,84 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    position: absolute;
+    width: 50%;
+    margin: 900px 20%;
+}
 
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    background-color: rgb(245, 242, 228);
+    font-size: 14px;
+}
+
+.box {
+    position: absolute;
+    width: 50%;
+    margin: 150px 20%;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.product-image {
+    height: 30%;
+    width: 50%;
+    float: left;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.line-through {
+    text-decoration: line-through;
+    color: gray;
+    margin-left: 20px;
+}
+
+.category {
+    font-size: 1.25rem;
+    letter-spacing: 4px;
+    color: gray;
+}
+
+.title {
+    font-family: 'Fredoka One', cursive;
+    font-size: 1.875rem;
+}
+
+.short-deccription {
+    line-height: 2rem;
+    font-size: 1.25rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.eye-catcher {
+    font-size: 2rem;
+    font-family: 'Fredoka One', cursive;
+    color: rgb(9, 139, 9);
+    margin-left: 35px;
+}
+
+.button {
+    background-color: green;
+    position: relative;
+    left: 30px;
+    top: 30px;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;
+    width: 30%;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #1be7c5;
+}
+
+.space {
+    position: relative;
+    margin-left: 55%;
+}
